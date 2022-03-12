@@ -404,6 +404,7 @@ article .section-settings .section-settings-container .section-setting-shape-con
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  margin: 5px 0;
 }
 
 .btn-order {
