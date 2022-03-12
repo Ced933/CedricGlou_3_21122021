@@ -15,7 +15,7 @@ html body {
   background: #fff;
   height: 100vh;
   width: 100%;
-  z-index: 999;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,22 +56,22 @@ header .header-nav-logo .header-img-logo {
   width: 150px;
 }
 
-header .header-div-h3-paris {
+article .header-div-h3-paris {
   background-color: #E8E8E8;
   padding: 15px 0;
 }
 
-header .header-div-h3-paris h3 {
+article .header-div-h3-paris h3 {
   margin: 0;
   text-align: center;
   font-size: 14px;
 }
 
-header .header-div-h3-paris h3 i {
+article .header-div-h3-paris h3 i {
   margin-right: 15px;
 }
 
-header .section-describe {
+article .section-describe {
   background-color: #F5F5F5;
   padding: 20px 0;
   display: -webkit-box;
@@ -85,28 +85,28 @@ header .section-describe {
           align-items: center;
 }
 
-header .section-describe .section-describe-container {
+article .section-describe .section-describe-container {
   padding: 25px;
   text-align: center;
 }
 
-header .section-describe .section-describe-container .h1 {
+article .section-describe .section-describe-container .h1 {
   margin: 0;
 }
 
-header .section-describe .section-describe-container p {
+article .section-describe .section-describe-container p {
   color: #686868;
 }
 
-header .section-describe .section-describe-container .section-describe-a {
+article .section-describe .section-describe-container .section-describe-a {
   margin-top: 40px;
 }
 
-header .section-settings .section-settings-container {
+article .section-settings .section-settings-container {
   padding: 20px 30px;
 }
 
-header .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape {
+article .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape {
   padding: 5px 20px;
   background-color: #F5F5F5;
   margin-bottom: 20px;
@@ -122,17 +122,17 @@ header .section-settings .section-settings-container .section-setting-shape-cona
   position: relative;
 }
 
-header .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape:hover {
+article .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape:hover {
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   background-color: #F5EDFF;
 }
 
-header .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape:hover .i-hover {
+article .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape:hover .i-hover {
   color: #9356DC;
 }
 
-header .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape span {
+article .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape span {
   position: absolute;
   left: 0;
   top: 50%;
@@ -151,7 +151,7 @@ header .section-settings .section-settings-container .section-setting-shape-cona
   border-radius: 50%;
 }
 
-header .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape .i-hover {
+article .section-settings .section-settings-container .section-setting-shape-conatiner .setting-shape .i-hover {
   margin-right: 20px;
   color: #686868;
 }
@@ -290,7 +290,7 @@ header .section-settings .section-settings-container .section-setting-shape-cona
   }
   100% {
     opacity: 0;
-    z-index: -999;
+    z-index: -9;
   }
 }
 
@@ -303,7 +303,7 @@ header .section-settings .section-settings-container .section-setting-shape-cona
   }
   100% {
     opacity: 0;
-    z-index: -999;
+    z-index: -9;
   }
 }
 
