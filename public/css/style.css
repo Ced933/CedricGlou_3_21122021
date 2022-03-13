@@ -90,12 +90,13 @@ article .section-describe .section-describe-container {
   text-align: center;
 }
 
-article .section-describe .section-describe-container .h1 {
+article .section-describe .section-describe-container .h2 {
   margin: 0;
 }
 
 article .section-describe .section-describe-container p {
   color: #686868;
+  font-size: 13px;
 }
 
 article .section-describe .section-describe-container .section-describe-a {
@@ -360,7 +361,7 @@ article .section-settings .section-settings-container .section-setting-shape-con
     background: url(../../images/restaurants/resto2.png) no-repeat;
     background-size: cover;
   }
-  .section-describe-container .h1 {
+  .section-describe-container .h2 {
     color: #fff;
   }
   .section-describe-container p {

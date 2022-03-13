@@ -58,11 +58,13 @@ article{
             padding: 25px;
             text-align: center;
 
-            .h1 {
+            .h2 {
                 margin: 0;
+                
             }
             p {
                 color: #686868;
+                font-size: 13px;
             }
      
             .section-describe-a {
@@ -273,12 +275,13 @@ article{
 
     }
     .section-describe-container {
-        .h1 {
+        .h2 {
             color: #fff;
         }
 
         p{
             color: #C4CAD0!important;
+            
         }
     }
     .section-settings-h2 {
