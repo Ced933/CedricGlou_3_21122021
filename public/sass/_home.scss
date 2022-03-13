@@ -10,12 +10,14 @@
     animation: fadeout 6.5s linear both ;
 
     .loader {
-        height: 20px;
-        width: 20px;
-        margin-right: 5px;
-        border-radius: 50%;
-        background: #333;
-        animation: translation 2s ease-in-out infinite;
+        height: 50px;
+        width: 50px;
+        border-right:3px solid #333;
+        border-left:3px solid #333;
+        border-bottom:3px solid #333 ;
+        border-radius: 50px;
+        background: #fff;
+        animation: rota2 1s linear infinite;
     }
 }
 
@@ -247,22 +249,16 @@ article{
         z-index: -9;
     }
 }  
-@keyframes translation{
+@keyframes rota2{
     0% {
-        transform:translateX(-50px);
+        
+        transform: rotate(0);
      }
- 25%{
-     transform:translateX(50px);
- }
-    50%{
-        transform:translateX(-50px);
-    }
-75%{
-    transform:translateX(50px);
-}
+
  
      100%{
-        transform:translateX(-50px);
+        transform: rotate(360deg);
+    
      }
 }
 @media only screen and (min-width: 1024px) {
